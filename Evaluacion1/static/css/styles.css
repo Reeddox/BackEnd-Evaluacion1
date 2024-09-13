@@ -1,0 +1,21 @@
+body{
+    background-color: blueviolet;
+}
+.Contenedor{
+    text-align: center;
+}
+.imagen1{
+    width: 100px;
+}
+.ImagenPelicula1{
+    width: 100px;
+    height: 100px;
+}
+.ImagenPelicula2{
+    width: 100px;
+    height: 100px;
+}
+.ImagenPelicula3{
+    width: 100px;
+    height: 100px;
+}

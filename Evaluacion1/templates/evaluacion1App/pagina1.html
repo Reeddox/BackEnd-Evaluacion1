@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Contenedor">
+        <h1>{{nombre}}</h1>
+        <p>{{desc}}</p>
+        <img src="{%static '{{imagen}} %'}" class="imagen1">
+        <br>
+        <a href="/Home/Peliculas/">Volver</a>
+    </div>
+</body>
+</html>
